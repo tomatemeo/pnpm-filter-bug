@@ -1,0 +1,11 @@
+{
+  "name": "pnpm-filter-bug",
+  "version": "0.0.0",
+  "description": "monorepo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

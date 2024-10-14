@@ -1,0 +1,5 @@
+packages:
+  - 'main-project'
+  - 'dependency-ok'
+  - 'dependency-x'
+  

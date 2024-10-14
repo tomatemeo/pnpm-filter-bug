@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  dependency-ok: {}
+
+  dependency-x: {}
+
+  main-project:
+    dependencies:
+      '@pnpm-filter-bug/dependency-ok':
+        specifier: workspace:^
+        version: link:../dependency-ok
+      '@pnpm-filter-bug/dependency-x':
+        specifier: workspace:../dependency-x
+        version: link:../dependency-x
